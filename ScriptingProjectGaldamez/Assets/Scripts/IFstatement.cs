@@ -26,7 +26,7 @@ public class IFstatement : MonoBehaviour
     void TemperatureTest ()
     {
         // If the coffee's temperature is greater than the hottest drinking temperature...
-        if(coffeeTemperature > hotLimitTemperature)
+        if(coffeeTemperature > hotLimitTemperture)
         {
             // ... do this.
             print("Coffee is too hot.");
